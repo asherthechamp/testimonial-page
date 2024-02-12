@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Inter:wght@400;600;700&family=Lato&family=Poppins&family=Sora&display=swap');
+
+body {
+    font-family: sora;
+    display: flex;  
+    background-color: #FAFAF9;
+}
+
+
+.container {
+    margin: 150px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-self: center;
+}
+
+.left {
+    width: 50%;
+    padding-right:50px;
+    padding-left: 15%;
+}
+
+.right {
+    width: 50%;
+    padding-right: 15%;
+}
+.starcircle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #F5C044;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.paragraph {
+    font-size: 20px;
+    color: #52525A
+}
+
+li {
+    list-style-image: url('./images/Done_ring_round_fill.svg');
+}
+
+.cardimg {
+    height: 35px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 5px #f3f0f0 ;
+    padding: 15px 15px;
+    width: 250px;
+    margin: 20px;
+    
+}
+
+.cardtop {
+    display: flex;
+    align-items: center;
+}
+
+.googlecard {
+    margin-left: auto;
+}
+
+.metacard {
+    margin-right: auto;
+}
+.cardp {
+    margin: 0px;
+}
+
+.cardh {
+    margin: 10px 0px;
+}
+
+@media screen and (max-width: 500px) 
+{
+    .container {
+        flex-direction: column;
+    }
+    
+
+}
+
